@@ -1,7 +1,11 @@
-def is_multiples(first_number, second_number):
+def function_multiples(divisor, number):
     """function that checks if first number is a multiple of the second
     number"""
     
-    if second_number / first_number == 0:
-        return second_number
-    pass
+    is_multiples = False
+    if (number % divisor)  == 0:
+        print("Is mutiple.")
+        is_multiples = True
+    else:
+        print("Is not multiple.")
+    return is_multiples
