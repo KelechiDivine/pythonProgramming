@@ -1,6 +1,11 @@
-import MethodOddAndEven
+def is_odd(oddNumber):
+    """Function that checks if a number is odd"""
+    if oddNumber % 2 == 1:
+        return oddNumber
 
-userInput = int(input("Enter number: "))
-
-print(f"This number is odd: {MethodOddAndEven.is_odd(userInput)}")
-print(f"This number is even: {MethodOddAndEven.is_even(userInput)}")
+def is_even(evenNumber):
+    """Function that checks if a number is even"""
+    if evenNumber % 2 == 0:
+        print("")
+        return evenNumber
+    
