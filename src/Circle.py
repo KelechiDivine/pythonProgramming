@@ -4,7 +4,7 @@ class Circle:
         self.radius = radius
         
     def draw(self, canvas):
-        rad =self.radius
+        rad = self.radius
         x1 = self.center[0] - rad
         y1 = self.center[1] - rad
         x2 = self.center[0] + rad

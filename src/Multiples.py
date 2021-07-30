@@ -1,6 +1,6 @@
-import methodMultiples
+import DriverClass as Dvc
 
 firstUserInput = int(input("Enter first number: "))
 secondUserInput = int(input("Enter second number: "))
 
-methodMultiples.function_multiples(firstUserInput, secondUserInput)
+Dvc.function_multiples(firstUserInput, secondUserInput)
