@@ -23,11 +23,3 @@ print("String : ", sample_three.ans)
 
 
 
-# def addition(firstNumber, secondNumber, thirdNumber, fourthNumber) -> int:
-#     sum = firstNumber + secondNumber + thirdNumber + fourthNumber
-#     return sum
-#
-# def subtraction (firstNumber,secondNumber) ->int:
-#     sub = firstNumber - secondNumber
-#     return sub
-#
