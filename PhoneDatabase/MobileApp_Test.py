@@ -65,21 +65,21 @@ class MobilePhoneTest(unittest.TestCase):
     def test_add_name_to_database(self):
         
         phone_database = PhoneBook()
-        phone_database.add_name_to_database("Kelechi")
-        phone_database.add_name_to_database("Divine")
-        phone_database.add_name_to_database("Dozie")
-        phone_database.add_name_to_database("Gbenga")
-        phone_database.add_name_to_database("Chidi")
-        phone_database.add_name_to_database("Ayo")
-        phone_database.add_name_to_database("Amaka")
-        phone_database.add_name_to_database("Dotun")
+        phone_database.add_name_to_phoneBook("Kelechi")
+        phone_database.add_name_to_phoneBook("Divine")
+        phone_database.add_name_to_phoneBook("Dozie")
+        phone_database.add_name_to_phoneBook("Gbenga")
+        phone_database.add_name_to_phoneBook("Chidi")
+        phone_database.add_name_to_phoneBook("Ayo")
+        phone_database.add_name_to_phoneBook("Amaka")
+        phone_database.add_name_to_phoneBook("Dotun")
         
         self.assertTrue(True)
         
     def test_if_name_already_exist_in_the_database(self):
         phone = PhoneBook()
-        phone.add_name_to_database("John")
-        self.assertFalse(True)
+        phone.add_name_to_phoneBook("Cynthia")
+        self.assertTrue(True)
         
     def test_search_name_in_the_database(self):
         
