@@ -61,6 +61,18 @@ class MobilePhoneTest(unittest.TestCase):
         phone = PhoneBook()
         phone.voice_tags()
         self.assertTrue(True)
+        
+    def test_add_name_to_database(self):
+        phone_database = PhoneBook()
+        phone_database.add_name_to_database("Kelechi")
+        phone_database.add_name_to_database("Divine")
+        phone_database.add_name_to_database("Dozie")
+        phone_database.add_name_to_database("Gbenga")
+        phone_database.add_name_to_database("Chidi")
+        phone_database.add_name_to_database("Ayo")
+        phone_database.add_name_to_database("Amaka")
+        phone_database.add_name_to_database("Dotun")
+        self.assertTrue(True)
 
 if __name__ == '__main__':
     unittest.main()

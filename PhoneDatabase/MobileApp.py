@@ -41,3 +41,9 @@ class PhoneBook(object):
    def voice_tags(self):
        print("10: Voice Tags")
    
+   
+   def add_name_to_database(self, name)->str:
+       name_variable = {""}
+       name_variable.add(name)
+       print(name + " have been added to the phone book database...")
+   
