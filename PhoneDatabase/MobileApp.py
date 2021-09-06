@@ -1,22 +1,6 @@
 import re
 
 class PhoneBook(object):
-   #
-   # def __init__(self, search, service_number, add_name, erase, edit,
-   #              assign_tones, send_b_card, options, speed_dial, voice_tag):
-   #
-   #     self.search = search
-   #     self.service_number = service_number
-   #     self.add_name = add_name
-   #     self.erase = erase
-   #     self.edit = edit
-   #     self.assign_tone = assign_tones
-   #     self.send_b_card = send_b_card
-   #     self.options = options
-   #     self.speed_dial = speed_dial
-   #     self.voice_tag = voice_tag
-   #
-   #
    
    def search(self):
        print("1: Search")
@@ -57,7 +41,3 @@ class PhoneBook(object):
    def voice_tags(self):
        print("10: Voice Tags")
    
-   # def display_phone_book_menu(self, menu) -> str:
-   #     if menu == "Phone Book Menu":
-   #         return
-   #

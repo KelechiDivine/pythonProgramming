@@ -1,7 +1,7 @@
 import unittest
 from MobileApp import PhoneBook
 
-class MyTestCase(unittest.TestCase):
+class MobilePhoneTest(unittest.TestCase):
 
     def test_search(self):
         phoneBook = PhoneBook()
