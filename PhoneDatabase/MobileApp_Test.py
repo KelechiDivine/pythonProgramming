@@ -78,7 +78,7 @@ class MobilePhoneTest(unittest.TestCase):
         
     def test_if_name_already_exist_in_the_database(self):
         phone = PhoneBook()
-        phone.add_name_to_phoneBook("Cynthia")
+        phone.add_name_to_phoneBook("Chukwuwere")
         self.assertTrue(True)
         
     def test_search_name_in_the_database(self):

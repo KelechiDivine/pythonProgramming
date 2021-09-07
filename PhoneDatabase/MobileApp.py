@@ -56,8 +56,7 @@ class PhoneBook(object):
            print("Name already exist.")
        
        else:
-           name_database = name_list.append(name)
-           # name_list = name_database.__add__(name, "")
+           name_database = name_list.add(name)
            print(name + " have been added to the database...")
        
        print(name_list)
