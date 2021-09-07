@@ -84,7 +84,7 @@ class MobilePhoneTest(unittest.TestCase):
     def test_search_name_in_the_database(self):
         
         phone = PhoneBook()
-        phone.search_name_in_database("oelechi")
+        phone.search_name_in_database("kelechi")
         self.assertTrue("Kelechi")
 
 if __name__ == '__main__':
