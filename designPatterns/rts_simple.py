@@ -20,4 +20,14 @@ class Knight(object):
             self.speed,
             self.attack_power,
             self.attack_range,
+            self.weapon
         )
+    
+class Barracks(object):
+    def generate_knight(self):
+        return Knight(400, 5, 3, 1, "short sword")
+        
+if __name__ == "__main__":
+    barracks = Barracks()
+    knight1 = barracks.generate_knight()
+    print("[knight] {}".format(knight1))
