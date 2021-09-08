@@ -49,7 +49,7 @@ class PhoneBook(object):
    def add_name_to_phoneBook(self, name)->str:
        
        name_database = np.save
-       name_list = [name]
+       name_list = [name_database]
        name_database = name_list
        
        if name in name_database:
