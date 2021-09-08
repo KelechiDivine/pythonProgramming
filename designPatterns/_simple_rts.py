@@ -49,4 +49,20 @@ class Archer(object):
              self.attack_power,
              self.attack_range,
              self.weapon)
-     
+
+
+class Barracks(object):
+
+    def generate_knight(self):
+         return Knight(400, 5, 3, 1, "short sword")
+
+    def generate_archer(self):
+         return Archer(200, 7, 1, 5, "short bow")
+if __name__ == "__main__":
+    barracks = Barracks()
+    
+    knight1 = barracks.generate_knight()
+    archer1 = barracks.generate_archer()
+    
+    print("[knight1] {}".format(knight1))
+    print("[archer1] {}".format(archer1))
