@@ -10,3 +10,6 @@ print(f"Status code: {r.status_code}")
 # store API response in a variable.
 
 response_dict = r.json()
+
+# process results.
+print(response_dict.keys())
