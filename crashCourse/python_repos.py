@@ -25,3 +25,15 @@ print(f"\nKeys: {len(repo_dicts)}")
 
 for key in sorted(repo_dicts.keys()):
     print(key)
+    
+# get git user details
+
+print("\nSelected information about first repository: ")
+print(f"Name: {repo_dicts['name']}")
+print(f"Owner: {repo_dicts['owner']['login']}")
+print(f"Stars: {repo_dicts['stargazers_count']}")
+print(f"Repository: {repo_dicts['html_url']}")
+print(f"Created: {repo_dicts['created_at']}")
+print(f"Updated: {repo_dicts['updated_at']}")
+print(f"Description: {repo_dicts['description']}")
+print(f"Fork: {repo_dicts['forks_count']}")
