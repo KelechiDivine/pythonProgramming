@@ -14,7 +14,7 @@ response_dict = r.json()
 # process results.
 print(response_dict.keys())
 
-print(f"Total repositories:  "
+print(f"Total git repositories:  "
       f"{response_dict['total_count']}")
 
 repo_dicts = response_dict['items']
