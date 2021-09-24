@@ -9,8 +9,9 @@ class TuringTest(unittest.TestCase):
         
     def test_calPoint_will_execute(self):
         turing = Turing()
-        turing.calPoint(["5", "2", "1", "D", "C", "+"])
-        self.assertTrue(True)
+        myList = ["5", "2", "C", "D", "+"]
+        
+        self.assertEqual(turing.calPoint(myList), 30)
         
 if __name__ == '__main__':
     unittest.main()
