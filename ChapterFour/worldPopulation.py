@@ -1,6 +1,7 @@
 class WorldPopulationGrowth(object):
     
-    def four_numbers_encrypting(self, first_integer, second_integer, third_integer, fourth_integer)->int:
+    def four_numbers_encrypting(self, first_integer, second_integer,
+                                third_integer, fourth_integer) -> int:
         
         first_result = first_integer + 7
         second_result = second_integer + 7
@@ -14,6 +15,7 @@ class WorldPopulationGrowth(object):
         
         print(f"The remainder is: {get_the_remainder_after_dividing_the_digit_value_by_ten}")
         
+        # swap logic
         swap_var = first_integer
         swap_var_2 = second_integer
         
@@ -23,4 +25,5 @@ class WorldPopulationGrowth(object):
         second_integer = fourth_integer
         fourth_integer = swap_var_2
         
-        print(f"Encrypted values after swapping: {first_integer} {second_integer} {third_integer} {fourth_integer}")
+        print(f"Encrypted values after swapping: {first_integer} {second_integer} "
+              f"{third_integer} {fourth_integer}")

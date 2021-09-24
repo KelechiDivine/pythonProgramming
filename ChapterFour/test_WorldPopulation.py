@@ -9,7 +9,7 @@ class WorldPopulationGrowthTest(unittest.TestCase):
         
     def test__replace_each_digit_with_the_result_of_adding_seven_to_the_digit__then_execute(self):
         crypto_world = WorldPopulationGrowth()
-        crypto_world.four_numbers_encrypting(1, 2, 3, 4)
+        crypto_world.four_numbers_encrypting(3, 57, 43, 2)
         self.assertIsNotNone(crypto_world)
 
 

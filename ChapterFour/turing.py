@@ -4,22 +4,22 @@ class Turing(object):
         print("Turing test is not null;")
         
         
-    def calPoint(self, ops= {""})-> str:
+    def calPoint(self, ops=[])-> str:
     
-        arrayList = {""}
+        arrayList = []
     
         for a in ops:
             if a == "C":
-                arrayList.discard(arrayList.__sizeof__() - 1)
+                arrayList.remove(arrayList.__len__() - 1)
             else:
                 if a == "D":
-                    arrayList.add(arrayList.__getattribute__(arrayList.__sizeof__() - 1) * 2)
+                    arrayList.append(arrayList.index(arrayList.__len__() - 1) * 2)
                 else:
                     if a  == "+":
-                        arrayList.add(arrayList.__getattribute__(arrayList.__sizeof__() - 1) +
-                                      arrayList.__getattribute__(arrayList.__sizeof__() - 2))
+                        arrayList.append(arrayList.index(arrayList.__len__() - 1) +
+                                         arrayList.index(arrayList.__len__() - 2))
                     else:
-                        arrayList.add(int(a))
+                        arrayList.append(int(a))
                         
         total = 0
         
