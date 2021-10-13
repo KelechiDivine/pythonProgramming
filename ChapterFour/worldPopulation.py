@@ -1,7 +1,7 @@
 class WorldPopulationGrowth(object):
     
-    def four_numbers_encrypting(self, first_integer, second_integer,
-                                third_integer, fourth_integer) -> int:
+    def four_numbers_encrypting(self, first_integer:int, second_integer:int,
+                                third_integer:int, fourth_integer:int):
         
         first_result = first_integer + 7
         second_result = second_integer + 7
