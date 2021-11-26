@@ -4,12 +4,12 @@
 #    as A[1] + A[2] = 20.
 #
 #    """
-   
+
 def two_Sum(number, target):
-   required_index = {}
-      
-   for index in range(len(number)):
-      if target - number[index] in required_index:
-         return [required_index[target - number[index]],index]
-      else:
-         required_index[number[index]]= index
+    required_index = {}
+
+    for index in range(len(number)):
+        if target - number[index] in required_index:
+            return [required_index[target - number[index]], index]
+        else:
+            required_index[number[index]] = index

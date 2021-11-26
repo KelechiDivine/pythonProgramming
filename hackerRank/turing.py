@@ -6,7 +6,6 @@ class Turing(object):
     def calPoint(self, ops):
         
         arrayList = []
-        
         for a in ops:
             if a == "C":
                 arrayList.remove(arrayList[len(arrayList) - 1])
