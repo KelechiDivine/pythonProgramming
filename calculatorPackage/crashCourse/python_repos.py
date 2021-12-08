@@ -1,10 +1,10 @@
 import requests
 
-# make an API call and store the response
+# TODO: make an API call and store the response
 
 url = 'https://api.github.com/search/repositories?q=language:python&sort=stars'
 headers = {'Accept': 'application/vnd.github.v3+json'}
-r = requests.get(url, headers= headers)
+r = requests.get(url, headers=headers)
 print(f"Status code: {r.status_code}")
 
 # store API response in a variable.
@@ -25,7 +25,7 @@ print(f"\nKeys: {len(repo_dicts)}")
 
 for key in sorted(repo_dicts.keys()):
     print(key)
-    
+
 # get git user details
 
 print("\nSelected information about first repository: ")
